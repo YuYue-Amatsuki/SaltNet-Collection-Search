@@ -4,14 +4,14 @@
     const route = useRoute();
     const router = useRouter();
 
-    function goCollections() {
+    // function goCollections() {
         if (route.path === "/collections") {
             const searchInput = document.getElementById("search-input");
             if (searchInput) searchInput.focus();
         } else {
             router.push("/collections");
         }
-    }
+    //}
 </script>
 
 <template>
